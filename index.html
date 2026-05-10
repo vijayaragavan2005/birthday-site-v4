@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Birthday, Captain!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <img src="assets/luffy-green-dino-banner.jpg" alt="Luffy and Green Dino Birthday" class="banner-img">
+    <h1>💚 Happy Birthday, Captain [Nandhini]! 💚</h1>
+    <p>From Luffy, Dino & the Straw Hat Crew!</p>
+  </header>
+
+  <section class="wanted-poster">
+    <h2>WANTED</h2>
+    <img src="assets/her-photo.jpg" alt="Captain [Nandhini]">
+    <p>Bounty: 1,000,000,000 Smiles, Roars & Races</p>
+  </section>
+
+  <section id="race">
+    <h2>🏁 Birthday RC Race!</h2>
+    <img src="assets/green-rc-car.png" alt="Green RC Car" id="rcCar">
+    <button onclick="startRace()">Start the Birthday Race!</button>
+    <p id="raceMessage"></p>
+  </section>
+
+  <section id="sounds">
+    <h2>🔊 Sound Effects</h2>
+    <button onclick="playSound('luffy')">Luffy: "Yohoho!"</button>
+    <button onclick="playSound('dino')">Dino: "Rawrr!"</button>
+    <button onclick="playSound('car')">RC Car Rev</button>
+    <button onclick="playSound('horn')">Honk Honk!</button>
+  </section>
+
+  <section id="surprise">
+    <button onclick="launchSurprise()">Click for a Surprise!</button>
+    <p id="message"></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
